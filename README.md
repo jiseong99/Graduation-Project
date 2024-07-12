@@ -2,7 +2,7 @@
 학사 졸업 프로젝트 / 첨단물류 복합 주유소 입지 선정
 
 
-![image](https://github.com/user-attachments/assets/343ad980-e974-4ef4-9d59-83a9b9f8060b)
+![페이지_ 첨단물류 복합주유소 입지선정](https://github.com/user-attachments/assets/a800cbb7-a7ef-443a-aaad-18c03fcb85dd)
 ![전종설 완성본_페이지_02](https://github.com/jiseong99/Graduation-Project/assets/137580822/e23fff38-bb1b-4a20-b14a-dcce657ca8bd)
 ![전종설 완성본_페이지_03](https://github.com/jiseong99/Graduation-Project/assets/137580822/365569da-3686-4738-aa15-5204e2ddc095)
 ![전종설 완성본_페이지_04](https://github.com/jiseong99/Graduation-Project/assets/137580822/b602b928-7e40-4128-9d79-94d2365617b7)
