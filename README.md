@@ -1,4 +1,151 @@
 # Graduation-Project
+# 🚗 Advanced Logistics Hybrid Gas Station Location Optimization
+
+A data-driven project to identify optimal locations for transforming traditional gas stations into advanced logistics and mobility hubs.
+
+---
+
+## 🚀 Overview
+
+With the rise of eco-friendly vehicles and carbon neutrality policies, traditional gas stations are experiencing declining profitability. 
+
+This project aims to identify **optimal locations for advanced logistics hybrid gas stations** that can serve as:
+- Mobility hubs (EV / Hydrogen charging)
+- Urban logistics centers
+- Micro-fulfillment nodes
+
+We leverage **multi-source urban data and clustering techniques** to determine high-potential areas.
+
+---
+
+## 🎯 Objectives
+
+- Identify regions with high demand for logistics and mobility services
+- Detect underserved areas lacking infrastructure
+- Provide data-driven insights for location selection
+- Support sustainable urban logistics development
+
+---
+
+## 📊 Data Sources
+
+We collected and integrated multiple urban datasets:
+
+- Population data (by administrative district)
+- Logistics warehouse locations
+- Parcel locker locations
+- Vehicle registration data
+- EV & hydrogen charging stations
+- Public bike stations
+
+---
+
+## ⚙️ Methodology
+
+### 1. Data Preprocessing
+
+- Converted addresses → latitude/longitude → administrative regions
+- Aggregated all features at the district level
+- Removed low-relevance regions:
+  - Bottom 25% population
+  - No infrastructure (logistics, charging, etc.)
+
+---
+
+### 2. Feature Engineering
+
+- Population per district
+- Number of:
+  - Parcel lockers
+  - Charging stations
+  - Public bike stations
+- Derived feature:
+  - Charging stations per eco-friendly vehicle
+
+---
+
+### 3. Clustering Approach
+
+To identify high-potential regions, we applied multiple clustering algorithms:
+
+- K-Means
+- K-Medoids
+- Hierarchical Clustering
+- Gaussian Mixture Model (GMM)
+
+---
+
+### 4. Cluster Selection
+
+We determined optimal clusters using:
+
+- Elbow Method
+- Silhouette Score
+- Gap Statistic
+- Dunn Index
+
+---
+
+### 5. Target Region Identification
+
+- Identified clusters with:
+  - High population
+  - Insufficient infrastructure
+
+These regions were considered **high-priority candidates** for new logistics hybrid gas stations.
+
+- Final selection was made using a **voting-based approach** across clustering methods
+
+---
+
+## 📈 Key Insights
+
+- High-population regions often lack sufficient infrastructure
+- Infrastructure demand is strongly correlated with population density
+- Data-driven clustering can effectively identify underserved urban areas
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- Pandas / NumPy
+- Scikit-learn
+- Geospatial Processing (Geocoding APIs)
+- Data Visualization
+
+---
+
+## 📌 Results
+
+- Identified high-priority districts for development
+- Provided actionable insights for urban logistics optimization
+- Demonstrated a scalable framework for location selection
+
+---
+
+## 🌱 Impact
+
+This project contributes to:
+- Sustainable urban mobility
+- Efficient logistics network design
+- Smart city infrastructure planning
+
+---
+
+## 🔮 Future Work
+
+- Incorporate real-time traffic and mobility data
+- Apply deep learning for spatial analysis
+- Expand to nationwide or global datasets
+
+---
+
+## 👤 Author
+
+Ji-Seong Han  
+B.S. Industrial and Information System Engineering, Soongsil University  
+
 학사 졸업 프로젝트 / 첨단물류 복합 주유소 입지 선정
 
 
